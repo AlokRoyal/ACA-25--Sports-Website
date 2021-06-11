@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(/iplResultsBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home ul{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 20px 0;
+}
+#home ul li{
+    transition: 1s;
+}
+#home ul li:hover{
+    transform: scale3d(1.5,1.5,1);
+}
+#home ul li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#home ul li a:hover{
+    color: yellow;
+}
+
+section .head{
+    padding: 40px 0;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .head h2{
+    transition: 2s;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+section .head h2:hover{
+    transform: scale3d(1.5,1.5,1);
+    color: rgb(0, 217, 255);
+}
+section .options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .options h2{
+    color: white;
+    text-shadow: 1px 1px 4px rgb(0, 217, 255);
+    padding: 20px 0;
+    font-size: 40px;
+}
+section .options select{
+    background: rgb(0, 217, 255);
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 20px;
+}
