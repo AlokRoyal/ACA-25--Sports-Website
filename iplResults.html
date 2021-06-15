@@ -20,22 +20,26 @@
             <h2>Want to know top ranks of IPL from given year?</h2>
         </div>
         <div class="options">
-            <h2>Please select a Year</h2>
-            <select name="year" id="select">
-                <option value="2008">2008</option>
-                <option value="2009">2009</option>
-                <option value="2010">2010</option>
-                <option value="2011">2011</option>
-                <option value="2012">2012</option>
-                <option value="2013">2013</option>
-                <option value="2014">2014</option>
-                <option value="2015">2015</option>
-                <option value="2016">2016</option>
-                <option value="2017">2017</option>
-                <option value="2018">2018</option>
-                <option value="2019">2019</option>
-                <option value="2020">2020</option>
-            </select>
+            <form id="testForm">
+                <h2>Please select a Year</h2>
+                <select name="year" id="select">
+                    <option name="2008">2008</option>
+                    <option name="2009">2009</option>
+                    <option name="2010">2010</option>
+                    <option name="2011">2011</option>
+                    <option name="2012">2012</option>
+                    <option name="2013">2013</option>
+                    <option name="2014">2014</option>
+                    <option name="2015">2015</option>
+                    <option name="2016">2016</option>
+                    <option name="2017">2017</option>
+                    <option name="2018">2018</option>
+                    <option name="2019">2019</option>
+                    <option name="2020">2020</option>
+                </select>
+                <input type="submit" value="submit">
+            </form>
+            <span id="result"></span>
         </div>
     </section>
     <script src="scriptIplResults.js"></script>
