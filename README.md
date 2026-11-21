@@ -1,23 +1,46 @@
 # MS Dhoni Tribute Website
 
-A static, three-page tribute site about Mahendra Singh Dhoni. It brings together a biography, career timeline, and IPL results page.
+![HTML](https://img.shields.io/badge/HTML5-pages-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-styling-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-vanilla-F7DF1E?logo=javascript&logoColor=black)
 
-## What is included
+A static, three-page tribute site about Mahendra Singh Dhoni. It combines a biography and achievements page, a career timeline, and an IPL results page.
 
-- index.html — biography and selected achievements
-- timeline.html — timeline page
-- iplResults.html — IPL results page
-- Dedicated stylesheets for the home, timeline, and results pages
-- Separate JavaScript files for browser-side behavior
+## Features
 
-This repository is plain HTML, CSS, and JavaScript; it does not include a framework or build pipeline.
+- Home page with biography, achievements, and a cricket-themed hero
+- Dedicated career timeline page
+- IPL results page with separate styling and browser-side behavior
+- Local JPG imagery and no external runtime services
 
-## Run locally
+## How it works
 
-Open index.html in a browser and navigate to the other pages using the site links. No dependencies need to be installed.
+index.html is the entry page. The home page links to timeline.html and iplResults.html. The pages use plain HTML and CSS; JavaScript is kept in small companion files for browser interactions. No framework, API, or persistent data layer is used.
 
-## File map
+## Architecture
 
-style.css, styletimeline.css, and styleIplResults.css provide page styling. script.js and scriptIplResults.js supply page behavior. Image files are loaded locally.
+Browser → HTML pages → page-specific CSS and JavaScript → local image files
 
-Keep the image files alongside the HTML pages. Existing paths and capitalization matter on case-sensitive hosting.
+## Start locally
+
+1. Clone or download the repository.
+2. Keep the HTML, stylesheets, scripts, and image files together.
+3. Open index.html in a modern browser.
+4. Follow the site navigation to view the timeline and IPL results.
+
+No dependency installation or build step is required. Use a static server if local file restrictions prevent assets from loading.
+
+## Project layout
+
+- index.html — biography and achievements
+- timeline.html — career timeline
+- iplResults.html — IPL results content
+- style.css — home page styles
+- styletimeline.css — timeline styles
+- styleIplResults.css — results page styles
+- script.js and scriptIplResults.js — browser behavior
+- JPG files — backgrounds and cricket imagery
+
+## Notes
+
+Preserve existing image paths and filename capitalization when hosting. This repository has no configured test/build workflow and no license file listed.
