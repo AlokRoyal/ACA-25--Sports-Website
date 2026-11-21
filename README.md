@@ -1,24 +1,23 @@
 # MS Dhoni Tribute Website
 
-A static tribute to Indian cricketer Mahendra Singh Dhoni, expanded with a career timeline and an IPL results page.
+A static, three-page tribute site about Mahendra Singh Dhoni. It brings together a biography, career timeline, and IPL results page.
 
-## Features
+## What is included
 
-- Biography and achievements page
-- Career timeline page
-- IPL results page with a dedicated script and stylesheet
-- Local image assets
+- index.html — biography and selected achievements
+- timeline.html — timeline page
+- iplResults.html — IPL results page
+- Dedicated stylesheets for the home, timeline, and results pages
+- Separate JavaScript files for browser-side behavior
 
-## Built with
-
-- HTML5
-- CSS3 (`style.css`, `styletimeline.css`, `styleIplResults.css`)
-- Vanilla JavaScript (`script.js`, `scriptIplResults.js`)
+This repository is plain HTML, CSS, and JavaScript; it does not include a framework or build pipeline.
 
 ## Run locally
 
-Open `index.html` in a browser and navigate to `timeline.html` or `iplResults.html`. No build step or package installation is required.
+Open index.html in a browser and navigate to the other pages using the site links. No dependencies need to be installed.
 
-## Project files
+## File map
 
-The HTML files define the pages; matching CSS and JavaScript files supply styling and interactions. Keep image assets in the repository root so relative asset references resolve correctly.
+style.css, styletimeline.css, and styleIplResults.css provide page styling. script.js and scriptIplResults.js supply page behavior. Image files are loaded locally.
+
+Keep the image files alongside the HTML pages. Existing paths and capitalization matter on case-sensitive hosting.
